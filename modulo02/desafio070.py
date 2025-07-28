@@ -10,7 +10,7 @@ while True:
     produtos.append(prod) #adiciona os itens digitados a lista vazia de produtos
     precos.append(valor) #adiciona os valores de cada produto a lista vazia de precos
 
-    contador2 += valor #faz a soma de todos os valore
+    contador2 += valor #faz a soma de todos os valores
 
     if valor > 1000: #conta os itens de valor superior a 1000
         contador1 += 1
@@ -21,7 +21,7 @@ while True:
 
     interronpe = int(input("[1] CONTINUAR\n[0] ENCERRAR"))
 
-    if interronpe == 0: #quando o usuario digitar 0 o while interrompe
+    if interronpe == 0: #quando o usuario digitar zero o while interrompe
         break
 
 print(f"A soma de todos os valores é {contador2}")
