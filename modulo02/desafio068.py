@@ -1,4 +1,4 @@
-#Jogo em que o usuario dgita um numero e soma com um numero sorteado pelo computador. No final o usuario precisa falar se essa soma é impar ou par. Caso o jogador perca o jogo finaliza, mas se ele ganhar o jogo continua.
+"""Jogo em que o usuario dgita um numero e soma com um numero sorteado pelo computador. No final o usuario precisa falar se essa soma é impar ou par. Caso o jogador perca o jogo finaliza, mas se ele ganhar o jogo continua."""
 
 import random
 contador = 0
