@@ -15,5 +15,15 @@ produtos = prod_preco[:10]
 
 preco = prod_preco[10:]
 
+# zip() combina elementos de duas ou mais sequências (como listas, tuplas, etc.) em iterações, criando pares ou tuplas de elementos correspondentes.
 
+dados_combinados = zip(produtos, preco)
+
+print('Tabela de Produtos e seus Valores')
+print('________________________________________________')
+print(f'{"Produto":<37} {"Preço"}')
+print('________________________________________________')
+
+for produto, preco in dados_combinados:
+    print(f'{produto:<35} R$ {preco:.2f}')
 
