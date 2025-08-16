@@ -22,7 +22,7 @@ print('-------------------------------------------------')
 print('Top 5 colocados do Brasileirão')
 
 print('-------------------------------------------------')
-#enumerate
+# O enumerate serve para gerar índice + valor de um único iterável
 for posicao, time in enumerate(tabela[:5], start=1):
     print(f'{posicao}º colocado: {time}')
 
