@@ -1,0 +1,15 @@
+# Programa que vai ler 4 numeros
+# a) O programa deve dizer quantas vezes aparece o numero 9
+# b) O programa devera dizer qual a posição do primeiro numero 3
+# c) Quais foram os numeros pares
+
+n = 0
+valores = []
+
+while n < 4:
+    numero = int(input('Digite um numero: '))
+    valores.append(numero)
+    n += 1
+
+t = tuple(valores) # converte a lista para tupla
+print(t)
