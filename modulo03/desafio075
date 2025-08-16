@@ -5,11 +5,24 @@
 
 n = 0
 valores = []
+pares = []
 
 while n < 4:
     numero = int(input('Digite um numero: '))
     valores.append(numero)
     n += 1
 
+print('-------------------------------------------------\n')
+
 t = tuple(valores) # converte a lista para tupla
-print(t)
+print(f"A tupla gerada foi {t}")
+
+print('\n-------------------------------------------------\n')
+
+nove = valores.count(9)
+print(f"O numero 9 apareceu {nove} vez(es)")
+
+print('\n-------------------------------------------------\n')
+
+tres = valores.index(3)
+print(f"O numero três apareceu na posição de digitação {tres+1} ")
