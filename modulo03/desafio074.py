@@ -4,7 +4,7 @@ import random
 # indicar maior e menor valor da tupla
 
 # gera uma lista vazia (opcional)
-cinco_numeros = []
+cinco_numeros = ()
 #[ ... for _ in range(5)] → é como dizer: “faça isso 5 vezes
 cinco_numeros = [random.randint(1,50) for _ in range(5)]
 
