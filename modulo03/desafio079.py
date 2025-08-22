@@ -10,7 +10,8 @@ for i in range(5):
 
     if repetido == False:
         valores.append(numeros)
+        valores.sort()
     else:
         print("Valor repetido, não será adicionado.")
 
-print(valores)
+print(f'Os valores digitados, sem repetições, foram {valores}')
