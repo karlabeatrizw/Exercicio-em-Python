@@ -10,5 +10,8 @@ for i in range(5):
 maior = max(valores)
 menor = min(valores)
 
-print(f'O menor valor da lista é {menor} e o maior valor é {maior}')
+in_maior = valores.index(maior)
+in_menor = valores.index(menor)
+
+print(f'O menor valor da lista é {menor} na posicão {in_menor} e o maior valor é {maior} na posição {in_maior}')
 
