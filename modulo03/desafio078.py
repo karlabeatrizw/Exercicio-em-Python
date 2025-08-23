@@ -10,8 +10,14 @@ for i in range(5):
 maior = max(valores)
 menor = min(valores)
 
-in_maior = valores.index(maior)
-in_menor = valores.index(menor)
+pos_menor = []
+pos_maior = []
 
-print(f'O menor valor da lista é {menor} na posicão {in_menor} e o maior valor é {maior} na posição {in_maior}')
+for indice, valor in enumerate(valores):
+    if valor == menor:
+        pos_menor.append(indice)
+    if valor == maior:
+        pos_maior.append(indice)
+
+print(f'os valores digitados foram {valores} o menor valor da lista é {menor} na posicão {pos_menor}  e o maior valor é {maior} na posição {pos_maior}')
 
