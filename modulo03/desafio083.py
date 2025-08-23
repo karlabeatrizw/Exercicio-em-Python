@@ -1,5 +1,4 @@
 expressao = str(input('Digite a expressão: '))
-pilha = []
 cont = 0
 cont2 = 0
 for simbolo in expressao:
@@ -9,8 +8,6 @@ for simbolo in expressao:
 for simbolo2 in expressao:    
     if simbolo2 == ')':
         cont2 += 1
-
-
 
 if cont == cont2:
         print('Todos os parenteses tem fechamento')
