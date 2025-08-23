@@ -21,11 +21,11 @@ while True:
     if numeros % 2 != 0:
         impares.append(numeros)
 
-print('______________________________________________________________________')
+print('_'*35)
 print(f'A lista gerada foi {valores}')
-print('______________________________________________________________________')
+print('_'*35)
 print(f'Os numeros pares foram {pares}')
-print('______________________________________________________________________')
+print('_'*35)
 print(f'Os numeros impares foram {impares}')
 
 
