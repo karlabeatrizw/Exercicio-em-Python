@@ -1,3 +1,5 @@
+#Programa que verifica se os parenteses estão fechados ou se tem algum sobrando
+
 expressao = str(input('Digite uma expressão matematica: '))
 pilha = []
 

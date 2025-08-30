@@ -20,9 +20,9 @@ preco = prod_preco[10:]
 dados_combinados = zip(produtos, preco)
 
 print('Tabela de Produtos e seus Valores')
-print('________________________________________________')
+print('_'*30)
 print(f'{"Produto":<37} {"Preço"}')
-print('________________________________________________')
+print('_'*30)
 
 for produto, preco in dados_combinados:
     print(f'{produto:<35} R$ {preco:.2f}')
