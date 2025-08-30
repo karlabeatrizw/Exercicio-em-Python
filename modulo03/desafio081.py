@@ -20,14 +20,14 @@ ordem_desc = valores[:]
 ordem_desc.sort(reverse=True)
 quantidade = len(valores)
 
-print('---------------------------------------------------------------------')
+print('-'*30)
 
 print(f'Esses são os valores ordenados {ordem_desc}')
-print('---------------------------------------------------------------------')
+print('-'*30)
 
 print(f'A quantidade de numeros digitados foram {quantidade}')
 
-print('---------------------------------------------------------------------')
+print('-'*30)
 
 print(f'A quantidade de vezes que o numero 5 apareceu foi {contagem}')
 
